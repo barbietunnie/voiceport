@@ -1,0 +1,6 @@
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\EnumTapiLines\bin\Debug\EnumTapiLines.exe
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\EnumTapiLines\bin\Debug\EnumTapiLines.pdb
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\EnumTapiLines\bin\Debug\Atapi.dll
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\EnumTapiLines\obj\Debug\ResolveAssemblyReference.cache
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\EnumTapiLines\obj\Debug\EnumTapiLines.exe
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\EnumTapiLines\obj\Debug\EnumTapiLines.pdb
