@@ -1,0 +1,9 @@
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\TcMon\obj\Debug\ResolveAssemblyReference.cache
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\TcMon\obj\Debug\TcMon.TapiMonitorForm.resources
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\TcMon\obj\Debug\TcMon.Properties.Resources.resources
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\TcMon\obj\Debug\TcMon.csproj.GenerateResource.Cache
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\TcMon\bin\Debug\TcMon.exe
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\TcMon\bin\Debug\TcMon.pdb
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\TcMon\bin\Debug\Atapi.dll
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\TcMon\obj\Debug\TcMon.exe
+Z:\Work\JulMar Entertainment\Projects\Atapi\Atapi\atapinet\TcMon\obj\Debug\TcMon.pdb
