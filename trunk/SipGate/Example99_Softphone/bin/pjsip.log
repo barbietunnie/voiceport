@@ -1,0 +1,1429 @@
+ 02:55:21.453 sip_endpoint.c Module "mod-pjsua-log" registered
+ 02:55:21.453 sip_endpoint.c Module "mod-tsx-layer" registered
+ 02:55:21.453 sip_endpoint.c Module "mod-stateful-util" registered
+ 02:55:21.453 sip_endpoint.c Module "mod-ua" registered
+ 02:55:21.453 sip_endpoint.c Module "mod-100rel" registered
+ 02:55:21.453 sip_endpoint.c Module "mod-pjsua" registered
+ 02:55:21.453 sip_endpoint.c Module "mod-invite" registered
+ 02:55:21.453      pasound.c PA message: before paHostApiInitializers[0].
+
+ 02:55:21.453      pasound.c PA message: Pa_GetDeviceInfo: Num input channels reported as 65535! Changed to 2.
+
+ 02:55:21.453      pasound.c PA message: Pa_GetDeviceInfo: Num output channels reported as 65535! Changed to 2.
+
+ 02:55:21.453      pasound.c PA message: after paHostApiInitializers[0].
+
+ 02:55:21.453      pasound.c PA message: before paHostApiInitializers[1].
+
+ 02:55:21.500      pasound.c PA message: after paHostApiInitializers[1].
+
+ 02:55:21.500      pasound.c PA message: before paHostApiInitializers[2].
+
+ 02:55:21.500      pasound.c PA message: after paHostApiInitializers[2].
+
+ 02:55:21.500      pasound.c PortAudio sound library initialized, status=0
+ 02:55:21.500      pasound.c PortAudio host api count=3
+ 02:55:21.500      pasound.c Sound device count=8
+ 02:55:21.500          pjlib WinNT IOCP I/O Queue created (00959FE4)
+ 02:55:21.500   conference.c Creating conference bridge with 254 ports
+ 02:55:21.515   conference.c Sound device successfully created for port 0
+ 02:55:21.515 sip_endpoint.c Module "mod-evsub" registered
+ 02:55:21.515 sip_endpoint.c Module "mod-presence" registered
+ 02:55:21.515        evsub.c Event pkg "presence" registered by mod-presence
+ 02:55:21.515 sip_endpoint.c Module "mod-refer" registered
+ 02:55:21.515        evsub.c Event pkg "refer" registered by mod-refer
+ 02:55:21.515 sip_endpoint.c Module "mod-pjsua-pres" registered
+ 02:55:21.515 sip_endpoint.c Module "mod-pjsua-im" registered
+ 02:55:21.515 sip_endpoint.c Module "mod-pjsua-options" registered
+ 02:55:21.515   pjsua_core.c 1 SIP worker threads created
+ 02:55:21.515   pjsua_core.c pjsua version 0.9.0-release for win32 initialized
+ 02:55:21.515   pjsua_core.c SIP UDP socket reachable at 10.1.1.139:5061
+ 02:55:21.515    udp0095F800 SIP UDP transport started, published address is 10.1.1.139:5061
+ 02:55:21.515    pjsua_acc.c Account <sip:10.1.1.139:5061> added with id 0
+ 02:55:21.515    tcplis:5061 SIP TCP listener ready for incoming connections at 10.1.1.139:5061
+ 02:55:21.515    pjsua_acc.c Account <sip:10.1.1.139:5061;transport=TCP> added with id 1
+ 02:55:21.515  pjsua_media.c RTP socket reachable at 10.1.1.139:4000
+ 02:55:21.515  pjsua_media.c RTCP socket reachable at 10.1.1.139:4001
+ 02:55:21.515  pjsua_media.c RTP socket reachable at 10.1.1.139:4002
+ 02:55:21.515  pjsua_media.c RTCP socket reachable at 10.1.1.139:4003
+ 02:55:21.531  pjsua_media.c RTP socket reachable at 10.1.1.139:4004
+ 02:55:21.531  pjsua_media.c RTCP socket reachable at 10.1.1.139:4005
+ 02:55:21.531  pjsua_media.c RTP socket reachable at 10.1.1.139:4006
+ 02:55:21.531  pjsua_media.c RTCP socket reachable at 10.1.1.139:4007
+ 02:55:21.531 sip_endpoint.c Module "My-Module" registered
+ 02:55:21.531    pjsua_acc.c Account id 0 deleted
+ 02:55:21.531    pjsua_acc.c Account id 1 deleted
+ 02:55:21.578    pjsua_acc.c Account sip:101@10.1.1.139 added with id 0
+ 02:55:21.578       endpoint Request msg REGISTER/cseq=41421 (tdta03CF9920) created.
+ 02:55:21.578    tsx03CFA98C Transaction created for Request msg REGISTER/cseq=41422 (tdta03CF9920)
+ 02:55:21.578    tsx03CFA98C Sending Request msg REGISTER/cseq=41422 (tdta03CF9920) in state Null
+ 02:55:21.578  sip_resolve.c Target '10.1.1.139:0' type=Unspecified resolved to '10.1.1.139:5060' type=UDP (UDP transport)
+ 02:55:21.578   pjsua_core.c TX 418 bytes Request msg REGISTER/cseq=41422 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5fb4cffc531d4cd5acbcfe1c812885b5
+Max-Forwards: 70
+From: <sip:101@10.1.1.139>;tag=fcefe746b6d74b38b7d42646266db0a4
+To: <sip:101@10.1.1.139>
+Call-ID: 50b133053de44eaab087559c129ffbee
+CSeq: 41422 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:101@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 02:55:21.578    tsx03CFA98C State changed from Null to Calling, event=TX_MSG
+ 02:55:21.578    pjsua_acc.c Registration sent
+ 02:55:21.687   pjsipDll.cpp Setting codec (speex/16000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (speex/32000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (GSM/8000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (PCMA/8000/1) prio: 128
+ 02:55:21.687   pjsipDll.cpp Setting codec (G722/16000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (GSM/8000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (speex/32000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (speex/16000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/44100/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/44100/2) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/8000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/8000/2) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/11025/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/11025/2) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/16000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/16000/2) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/22050/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/22050/2) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/32000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/32000/2) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/48000/1) prio: 0
+ 02:55:21.687   pjsipDll.cpp Setting codec (L16/48000/2) prio: 0
+ 02:55:22.078    tsx03CFA98C Retransmit timer event
+ 02:55:22.078    tsx03CFA98C Retransmiting Request msg REGISTER/cseq=41422 (tdta03CF9920), count=0, restart?=1
+ 02:55:22.078   pjsua_core.c TX 418 bytes Request msg REGISTER/cseq=41422 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5fb4cffc531d4cd5acbcfe1c812885b5
+Max-Forwards: 70
+From: <sip:101@10.1.1.139>;tag=fcefe746b6d74b38b7d42646266db0a4
+To: <sip:101@10.1.1.139>
+Call-ID: 50b133053de44eaab087559c129ffbee
+CSeq: 41422 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:101@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 02:55:23.078    tsx03CFA98C Retransmit timer event
+ 02:55:23.078    tsx03CFA98C Retransmiting Request msg REGISTER/cseq=41422 (tdta03CF9920), count=1, restart?=1
+ 02:55:23.078   pjsua_core.c TX 418 bytes Request msg REGISTER/cseq=41422 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5fb4cffc531d4cd5acbcfe1c812885b5
+Max-Forwards: 70
+From: <sip:101@10.1.1.139>;tag=fcefe746b6d74b38b7d42646266db0a4
+To: <sip:101@10.1.1.139>
+Call-ID: 50b133053de44eaab087559c129ffbee
+CSeq: 41422 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:101@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 02:55:25.078    tsx03CFA98C Retransmit timer event
+ 02:55:25.078    tsx03CFA98C Retransmiting Request msg REGISTER/cseq=41422 (tdta03CF9920), count=2, restart?=1
+ 02:55:25.078   pjsua_core.c TX 418 bytes Request msg REGISTER/cseq=41422 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5fb4cffc531d4cd5acbcfe1c812885b5
+Max-Forwards: 70
+From: <sip:101@10.1.1.139>;tag=fcefe746b6d74b38b7d42646266db0a4
+To: <sip:101@10.1.1.139>
+Call-ID: 50b133053de44eaab087559c129ffbee
+CSeq: 41422 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:101@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 02:55:26.406   pjsipDll.cpp Setting codec (speex/8000/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (iLBC/8000/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (G722/16000/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (GSM/8000/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (speex/32000/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (speex/16000/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/44100/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/44100/2) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/8000/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/8000/2) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/11025/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/11025/2) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/16000/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/16000/2) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/22050/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/22050/2) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/32000/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/32000/2) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/48000/1) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (L16/48000/2) prio: 0
+ 02:55:26.406   pjsipDll.cpp Setting codec (PCMU/8000/1) prio: 128
+ 02:55:26.406   pjsipDll.cpp Setting codec (PCMA/8000/1) prio: 127
+ 02:55:29.078    tsx03CFA98C Retransmit timer event
+ 02:55:29.078    tsx03CFA98C Retransmiting Request msg REGISTER/cseq=41422 (tdta03CF9920), count=3, restart?=1
+ 02:55:29.078   pjsua_core.c TX 418 bytes Request msg REGISTER/cseq=41422 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5fb4cffc531d4cd5acbcfe1c812885b5
+Max-Forwards: 70
+From: <sip:101@10.1.1.139>;tag=fcefe746b6d74b38b7d42646266db0a4
+To: <sip:101@10.1.1.139>
+Call-ID: 50b133053de44eaab087559c129ffbee
+CSeq: 41422 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:101@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 02:55:33.078    tsx03CFA98C Retransmit timer event
+ 02:55:33.078    tsx03CFA98C Retransmiting Request msg REGISTER/cseq=41422 (tdta03CF9920), count=4, restart?=1
+ 02:55:33.078   pjsua_core.c TX 418 bytes Request msg REGISTER/cseq=41422 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5fb4cffc531d4cd5acbcfe1c812885b5
+Max-Forwards: 70
+From: <sip:101@10.1.1.139>;tag=fcefe746b6d74b38b7d42646266db0a4
+To: <sip:101@10.1.1.139>
+Call-ID: 50b133053de44eaab087559c129ffbee
+CSeq: 41422 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:101@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 02:55:37.078    tsx03CFA98C Retransmit timer event
+ 02:55:37.078    tsx03CFA98C Retransmiting Request msg REGISTER/cseq=41422 (tdta03CF9920), count=5, restart?=1
+ 02:55:37.078   pjsua_core.c TX 418 bytes Request msg REGISTER/cseq=41422 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5fb4cffc531d4cd5acbcfe1c812885b5
+Max-Forwards: 70
+From: <sip:101@10.1.1.139>;tag=fcefe746b6d74b38b7d42646266db0a4
+To: <sip:101@10.1.1.139>
+Call-ID: 50b133053de44eaab087559c129ffbee
+CSeq: 41422 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:101@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 02:55:41.078    tsx03CFA98C Retransmit timer event
+ 02:55:41.078    tsx03CFA98C Retransmiting Request msg REGISTER/cseq=41422 (tdta03CF9920), count=6, restart?=1
+ 02:55:41.078   pjsua_core.c TX 418 bytes Request msg REGISTER/cseq=41422 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5fb4cffc531d4cd5acbcfe1c812885b5
+Max-Forwards: 70
+From: <sip:101@10.1.1.139>;tag=fcefe746b6d74b38b7d42646266db0a4
+To: <sip:101@10.1.1.139>
+Call-ID: 50b133053de44eaab087559c129ffbee
+CSeq: 41422 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:101@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 02:55:41.078 sip_endpoint.c Processing incoming message: Response msg 404/REGISTER/cseq=41422 (rdata03CEAF6C)
+ 02:55:41.078   pjsua_core.c RX 423 bytes Response msg 404/REGISTER/cseq=41422 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+SIP/2.0 404 Not found
+Via: SIP/2.0/UDP 10.1.1.139:5061;branch=z9hG4bKPj5fb4cffc531d4cd5acbcfe1c812885b5;received=10.1.1.139;rport=5061
+From: <sip:101@10.1.1.139>;tag=fcefe746b6d74b38b7d42646266db0a4
+To: <sip:101@10.1.1.139>;tag=as41c6447e
+Call-ID: 50b133053de44eaab087559c129ffbee
+CSeq: 41422 REGISTER
+User-Agent: Asterisk PBX
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY
+Content-Length: 0
+
+
+--end msg--
+ 02:55:41.078    tsx03CFA98C Incoming Response msg 404/REGISTER/cseq=41422 (rdata03CEAF6C) in state Calling
+ 02:55:41.078    tsx03CFA98C State changed from Calling to Completed, event=RX_MSG
+ 02:55:41.078    pjsua_acc.c SIP registration failed, status=404 (Not found)
+ 02:55:46.078    tsx03CFA98C Timeout timer event
+ 02:55:46.078    tsx03CFA98C State changed from Completed to Terminated, event=TIMER
+ 02:55:46.078    tsx03CFA98C Timeout timer event
+ 02:55:46.078    tsx03CFA98C State changed from Terminated to Destroyed, event=TIMER
+ 02:55:46.078   tdta03CF9920 Destroying txdata Request msg REGISTER/cseq=41422 (tdta03CF9920)
+ 02:55:46.078    tsx03CFA98C Transaction destroyed!
+ 02:55:56.390   pjsipDll.cpp Setting codec (iLBC/8000/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (speex/8000/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (G722/16000/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (GSM/8000/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (speex/32000/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (speex/16000/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/44100/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/44100/2) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/8000/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/8000/2) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/11025/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/11025/2) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/16000/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/16000/2) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/22050/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/22050/2) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/32000/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/32000/2) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/48000/1) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (L16/48000/2) prio: 0
+ 02:55:56.390   pjsipDll.cpp Setting codec (PCMU/8000/1) prio: 128
+ 02:55:56.390   pjsipDll.cpp Setting codec (PCMA/8000/1) prio: 127
+ 02:55:56.390    pjsua_acc.c Account id 0 deleted
+ 02:55:56.406    pjsua_acc.c Account sip:3000@10.1.1.139 added with id 0
+ 02:55:56.406       endpoint Request msg REGISTER/cseq=36371 (tdta03CF9920) created.
+ 02:55:56.406    tsx03CFA98C Transaction created for Request msg REGISTER/cseq=36372 (tdta03CF9920)
+ 02:55:56.406    tsx03CFA98C Sending Request msg REGISTER/cseq=36372 (tdta03CF9920) in state Null
+ 02:55:56.406  sip_resolve.c Target '10.1.1.139:0' type=Unspecified resolved to '10.1.1.139:5060' type=UDP (UDP transport)
+ 02:55:56.406   pjsua_core.c TX 421 bytes Request msg REGISTER/cseq=36372 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj0caf31de779b4b79a8ba4cf25324d838
+Max-Forwards: 70
+From: <sip:3000@10.1.1.139>;tag=a98b1c3a36224653b1492e2c38cb4b16
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36372 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:3000@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 02:55:56.406    tsx03CFA98C State changed from Null to Calling, event=TX_MSG
+ 02:55:56.406    pjsua_acc.c Registration sent
+ 02:55:56.406 sip_endpoint.c Processing incoming message: Response msg 100/REGISTER/cseq=36372 (rdata03CEAF6C)
+ 02:55:56.406   pjsua_core.c RX 439 bytes Response msg 100/REGISTER/cseq=36372 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.1.1.139:5061;branch=z9hG4bKPj0caf31de779b4b79a8ba4cf25324d838;received=10.1.1.139;rport=5061
+From: <sip:3000@10.1.1.139>;tag=a98b1c3a36224653b1492e2c38cb4b16
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36372 REGISTER
+User-Agent: Asterisk PBX
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY
+Contact: <sip:3000@10.1.1.139>
+Content-Length: 0
+
+
+--end msg--
+ 02:55:56.406    tsx03CFA98C Incoming Response msg 100/REGISTER/cseq=36372 (rdata03CEAF6C) in state Calling
+ 02:55:56.406    tsx03CFA98C State changed from Calling to Proceeding, event=RX_MSG
+ 02:55:56.468 sip_endpoint.c Processing incoming message: Response msg 200/REGISTER/cseq=36372 (rdata03CEAF6C)
+ 02:55:56.468   pjsua_core.c RX 520 bytes Response msg 200/REGISTER/cseq=36372 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.1.1.139:5061;branch=z9hG4bKPj0caf31de779b4b79a8ba4cf25324d838;received=10.1.1.139;rport=5061
+From: <sip:3000@10.1.1.139>;tag=a98b1c3a36224653b1492e2c38cb4b16
+To: <sip:3000@10.1.1.139>;tag=as4649ed0c
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36372 REGISTER
+User-Agent: Asterisk PBX
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY
+Expires: 3600
+Contact: <sip:3000@10.1.1.139:5061>;expires=3600
+Date: Thu, 21 Aug 2008 00:55:56 GMT
+Content-Length: 0
+
+
+--end msg--
+ 02:55:56.468    tsx03CFA98C Incoming Response msg 200/REGISTER/cseq=36372 (rdata03CEAF6C) in state Proceeding
+ 02:55:56.468    tsx03CFA98C State changed from Proceeding to Completed, event=RX_MSG
+ 02:55:56.468    pjsua_acc.c sip:3000@10.1.1.139: registration success, status=200 (OK), will re-register in 3600 seconds
+ 02:55:56.468    pjsua_acc.c Keep-alive timer started for acc 0, destination:10.1.1.139:5060, interval:15s
+ 02:56:01.468    tsx03CFA98C Timeout timer event
+ 02:56:01.468    tsx03CFA98C State changed from Completed to Terminated, event=TIMER
+ 02:56:01.468    tsx03CFA98C Timeout timer event
+ 02:56:01.468    tsx03CFA98C State changed from Terminated to Destroyed, event=TIMER
+ 02:56:01.468   tdta03CF9920 Destroying txdata Request msg REGISTER/cseq=36372 (tdta03CF9920)
+ 02:56:01.468    tsx03CFA98C Transaction destroyed!
+ 02:56:01.734 sip_endpoint.c Processing incoming message: Request msg NOTIFY/cseq=102 (rdata03CEAF6C)
+ 02:56:01.734   pjsua_core.c RX 535 bytes Request msg NOTIFY/cseq=102 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+NOTIFY sip:3000@10.1.1.139:5061 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5060;branch=z9hG4bK6e2eda09;rport
+From: "asterisk" <sip:asterisk@10.1.1.139>;tag=as773a37fb
+To: <sip:3000@10.1.1.139:5061>
+Contact: <sip:asterisk@10.1.1.139>
+Call-ID: 5061c3d7005c200b6f6f5d9629ef4332@10.1.1.139
+CSeq: 102 NOTIFY
+User-Agent: Asterisk PBX
+Max-Forwards: 70
+Event: message-summary
+Content-Type: application/simple-message-summary
+Content-Length: 92
+
+Messages-Waiting: yes
+Message-Account: sip:asterisk@10.1.1.139
+Voice-Message: 10/0 (0/0)
+
+--end msg--
+ 02:56:01.781       endpoint Response msg 200/NOTIFY/cseq=102 (tdta03CF9920) created
+ 02:56:01.781   pjsua_core.c TX 284 bytes Response msg 200/NOTIFY/cseq=102 (tdta03CF9920) to UDP 10.1.1.139:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.1.1.139:5060;rport=5060;received=10.1.1.139;branch=z9hG4bK6e2eda09
+Call-ID: 5061c3d7005c200b6f6f5d9629ef4332@10.1.1.139
+From: "asterisk" <sip:asterisk@10.1.1.139>;tag=as773a37fb
+To: <sip:3000@10.1.1.139>
+CSeq: 102 NOTIFY
+Content-Length:  0
+
+
+--end msg--
+ 02:56:01.781   tdta03CF9920 Destroying txdata Response msg 200/NOTIFY/cseq=102 (tdta03CF9920)
+ 02:56:11.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:56:11.468   tdta03CF9920 Destroying txdata raw
+ 02:56:26.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:56:26.468   tdta03CF9920 Destroying txdata raw
+ 02:56:41.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:56:41.468   tdta03CF9920 Destroying txdata raw
+ 02:56:56.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:56:56.468   tdta03CF9920 Destroying txdata raw
+ 02:57:11.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:57:11.468   tdta03CF9920 Destroying txdata raw
+ 02:57:26.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:57:26.468   tdta03CF9920 Destroying txdata raw
+ 02:57:41.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:57:41.468   tdta03CF9920 Destroying txdata raw
+ 02:57:56.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:57:56.468   tdta03CF9920 Destroying txdata raw
+ 02:58:11.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:58:11.468   tdta03CF9920 Destroying txdata raw
+ 02:58:17.640   pjsipDll.cpp Setting codec (iLBC/8000/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (speex/8000/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (G722/16000/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (GSM/8000/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (speex/32000/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (speex/16000/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/44100/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/44100/2) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/8000/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/8000/2) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/11025/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/11025/2) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/16000/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/16000/2) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/22050/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/22050/2) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/32000/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/32000/2) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/48000/1) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (L16/48000/2) prio: 0
+ 02:58:17.640   pjsipDll.cpp Setting codec (PCMU/8000/1) prio: 128
+ 02:58:17.640   pjsipDll.cpp Setting codec (PCMA/8000/1) prio: 127
+ 02:58:26.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:58:26.468   tdta03CF9920 Destroying txdata raw
+ 02:58:41.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:58:41.468   tdta03CF9920 Destroying txdata raw
+ 02:58:56.468    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 02:58:56.468   tdta03CF9920 Destroying txdata raw
+ 08:02:57.500    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:02:57.500   tdta03CF9920 Destroying txdata raw
+ 08:02:57.500       endpoint Request msg REGISTER/cseq=36372 (tdta03CF9920) created.
+ 08:02:57.500    tsx03CFA98C Transaction created for Request msg REGISTER/cseq=36373 (tdta03CF9920)
+ 08:02:57.500    tsx03CFA98C Sending Request msg REGISTER/cseq=36373 (tdta03CF9920) in state Null
+ 08:02:57.500  sip_resolve.c Target '10.1.1.139:0' type=Unspecified resolved to '10.1.1.139:5060' type=UDP (UDP transport)
+ 08:02:57.500   pjsua_core.c TX 421 bytes Request msg REGISTER/cseq=36373 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPjee4ec56c82cf4a8983e33ef58074d9ec
+Max-Forwards: 70
+From: <sip:3000@10.1.1.139>;tag=8eb398ba58d3417f86a22e88bba06df4
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36373 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:3000@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 08:02:57.500    tsx03CFA98C State changed from Null to Calling, event=TX_MSG
+ 08:03:02.312    tsx03CFA98C Retransmit timer event
+ 08:03:04.312    tsx03CFA98C Retransmiting Request msg REGISTER/cseq=36373 (tdta03CF9920), count=0, restart?=1
+ 08:03:04.312   pjsua_core.c TX 421 bytes Request msg REGISTER/cseq=36373 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPjee4ec56c82cf4a8983e33ef58074d9ec
+Max-Forwards: 70
+From: <sip:3000@10.1.1.139>;tag=8eb398ba58d3417f86a22e88bba06df4
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36373 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:3000@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 08:03:05.359    tsx03CFA98C Retransmit timer event
+ 08:03:05.359    tsx03CFA98C Retransmiting Request msg REGISTER/cseq=36373 (tdta03CF9920), count=1, restart?=1
+ 08:03:05.359   pjsua_core.c TX 421 bytes Request msg REGISTER/cseq=36373 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPjee4ec56c82cf4a8983e33ef58074d9ec
+Max-Forwards: 70
+From: <sip:3000@10.1.1.139>;tag=8eb398ba58d3417f86a22e88bba06df4
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36373 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:3000@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 08:03:07.359    tsx03CFA98C Retransmit timer event
+ 08:03:07.359    tsx03CFA98C Retransmiting Request msg REGISTER/cseq=36373 (tdta03CF9920), count=2, restart?=1
+ 08:03:07.359   pjsua_core.c TX 421 bytes Request msg REGISTER/cseq=36373 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPjee4ec56c82cf4a8983e33ef58074d9ec
+Max-Forwards: 70
+From: <sip:3000@10.1.1.139>;tag=8eb398ba58d3417f86a22e88bba06df4
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36373 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:3000@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 08:03:07.562 sip_endpoint.c Processing incoming message: Response msg 100/REGISTER/cseq=36373 (rdata03CEAF6C)
+ 08:03:07.562   pjsua_core.c RX 439 bytes Response msg 100/REGISTER/cseq=36373 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.1.1.139:5061;branch=z9hG4bKPjee4ec56c82cf4a8983e33ef58074d9ec;received=10.1.1.139;rport=5061
+From: <sip:3000@10.1.1.139>;tag=8eb398ba58d3417f86a22e88bba06df4
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36373 REGISTER
+User-Agent: Asterisk PBX
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY
+Contact: <sip:3000@10.1.1.139>
+Content-Length: 0
+
+
+--end msg--
+ 08:03:07.578    tsx03CFA98C Incoming Response msg 100/REGISTER/cseq=36373 (rdata03CEAF6C) in state Calling
+ 08:03:07.578    tsx03CFA98C State changed from Calling to Proceeding, event=RX_MSG
+ 08:03:07.859 sip_endpoint.c Processing incoming message: Response msg 200/REGISTER/cseq=36373 (rdata03CEAF6C)
+ 08:03:07.859   pjsua_core.c RX 520 bytes Response msg 200/REGISTER/cseq=36373 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.1.1.139:5061;branch=z9hG4bKPjee4ec56c82cf4a8983e33ef58074d9ec;received=10.1.1.139;rport=5061
+From: <sip:3000@10.1.1.139>;tag=8eb398ba58d3417f86a22e88bba06df4
+To: <sip:3000@10.1.1.139>;tag=as3429cc79
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36373 REGISTER
+User-Agent: Asterisk PBX
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY
+Expires: 3600
+Contact: <sip:3000@10.1.1.139:5061>;expires=3600
+Date: Thu, 21 Aug 2008 06:03:07 GMT
+Content-Length: 0
+
+
+--end msg--
+ 08:03:07.859    tsx03CFA98C Incoming Response msg 200/REGISTER/cseq=36373 (rdata03CEAF6C) in state Proceeding
+ 08:03:07.859    tsx03CFA98C State changed from Proceeding to Completed, event=RX_MSG
+ 08:03:07.859    pjsua_acc.c sip:3000@10.1.1.139: registration success, status=200 (OK), will re-register in 3600 seconds
+ 08:03:07.859    pjsua_acc.c Keep-alive timer started for acc 0, destination:10.1.1.139:5060, interval:15s
+ 08:03:07.859 sip_endpoint.c Processing incoming message: Response msg 100/REGISTER/cseq=36373 (rdata03CEAF6C)
+ 08:03:07.859   pjsua_core.c RX 439 bytes Response msg 100/REGISTER/cseq=36373 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.1.1.139:5061;branch=z9hG4bKPjee4ec56c82cf4a8983e33ef58074d9ec;received=10.1.1.139;rport=5061
+From: <sip:3000@10.1.1.139>;tag=8eb398ba58d3417f86a22e88bba06df4
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36373 REGISTER
+User-Agent: Asterisk PBX
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY
+Contact: <sip:3000@10.1.1.139>
+Content-Length: 0
+
+
+--end msg--
+ 08:03:07.859    tsx03CFA98C Incoming Response msg 100/REGISTER/cseq=36373 (rdata03CEAF6C) in state Completed
+ 08:03:12.859    tsx03CFA98C Timeout timer event
+ 08:03:12.859    tsx03CFA98C State changed from Completed to Terminated, event=TIMER
+ 08:03:12.859    tsx03CFA98C Timeout timer event
+ 08:03:12.859    tsx03CFA98C State changed from Terminated to Destroyed, event=TIMER
+ 08:03:12.859   tdta03CF9920 Destroying txdata Request msg REGISTER/cseq=36373 (tdta03CF9920)
+ 08:03:12.859    tsx03CFA98C Transaction destroyed!
+ 08:03:16.984 sip_endpoint.c Processing incoming message: Request msg NOTIFY/cseq=102 (rdata03CEAF6C)
+ 08:03:16.984   pjsua_core.c RX 535 bytes Request msg NOTIFY/cseq=102 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+NOTIFY sip:3000@10.1.1.139:5061 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5060;branch=z9hG4bK341cc38d;rport
+From: "asterisk" <sip:asterisk@10.1.1.139>;tag=as2d6a5c70
+To: <sip:3000@10.1.1.139:5061>
+Contact: <sip:asterisk@10.1.1.139>
+Call-ID: 516402a348ffde3879e4f87b0978436f@10.1.1.139
+CSeq: 102 NOTIFY
+User-Agent: Asterisk PBX
+Max-Forwards: 70
+Event: message-summary
+Content-Type: application/simple-message-summary
+Content-Length: 92
+
+Messages-Waiting: yes
+Message-Account: sip:asterisk@10.1.1.139
+Voice-Message: 10/0 (0/0)
+
+--end msg--
+ 08:03:16.984       endpoint Response msg 200/NOTIFY/cseq=102 (tdta03CF9920) created
+ 08:03:16.984   pjsua_core.c TX 284 bytes Response msg 200/NOTIFY/cseq=102 (tdta03CF9920) to UDP 10.1.1.139:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.1.1.139:5060;rport=5060;received=10.1.1.139;branch=z9hG4bK341cc38d
+Call-ID: 516402a348ffde3879e4f87b0978436f@10.1.1.139
+From: "asterisk" <sip:asterisk@10.1.1.139>;tag=as2d6a5c70
+To: <sip:3000@10.1.1.139>
+CSeq: 102 NOTIFY
+Content-Length:  0
+
+
+--end msg--
+ 08:03:16.984   tdta03CF9920 Destroying txdata Response msg 200/NOTIFY/cseq=102 (tdta03CF9920)
+ 08:03:19.000 sip_endpoint.c Processing incoming message: Request msg NOTIFY/cseq=102 (rdata03CEAF6C)
+ 08:03:19.000   pjsua_core.c RX 535 bytes Request msg NOTIFY/cseq=102 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+NOTIFY sip:3000@10.1.1.139:5061 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5060;branch=z9hG4bK4139ff2c;rport
+From: "asterisk" <sip:asterisk@10.1.1.139>;tag=as4bc54421
+To: <sip:3000@10.1.1.139:5061>
+Contact: <sip:asterisk@10.1.1.139>
+Call-ID: 0c5343534ca440522a2430ab131d6af7@10.1.1.139
+CSeq: 102 NOTIFY
+User-Agent: Asterisk PBX
+Max-Forwards: 70
+Event: message-summary
+Content-Type: application/simple-message-summary
+Content-Length: 92
+
+Messages-Waiting: yes
+Message-Account: sip:asterisk@10.1.1.139
+Voice-Message: 10/0 (0/0)
+
+--end msg--
+ 08:03:19.000       endpoint Response msg 200/NOTIFY/cseq=102 (tdta03CF9920) created
+ 08:03:19.000   pjsua_core.c TX 284 bytes Response msg 200/NOTIFY/cseq=102 (tdta03CF9920) to UDP 10.1.1.139:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.1.1.139:5060;rport=5060;received=10.1.1.139;branch=z9hG4bK4139ff2c
+Call-ID: 0c5343534ca440522a2430ab131d6af7@10.1.1.139
+From: "asterisk" <sip:asterisk@10.1.1.139>;tag=as4bc54421
+To: <sip:3000@10.1.1.139>
+CSeq: 102 NOTIFY
+Content-Length:  0
+
+
+--end msg--
+ 08:03:19.000   tdta03CF9920 Destroying txdata Response msg 200/NOTIFY/cseq=102 (tdta03CF9920)
+ 08:03:22.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:03:22.859   tdta03CF9920 Destroying txdata raw
+ 08:03:37.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:03:37.859   tdta03CF9920 Destroying txdata raw
+ 08:03:52.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:03:52.859   tdta03CF9920 Destroying txdata raw
+ 08:04:07.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:04:07.859   tdta03CF9920 Destroying txdata raw
+ 08:04:22.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:04:22.859   tdta03CF9920 Destroying txdata raw
+ 08:04:37.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:04:37.859   tdta03CF9920 Destroying txdata raw
+ 08:04:52.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:04:52.859   tdta03CF9920 Destroying txdata raw
+ 08:05:07.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:05:07.859   tdta03CF9920 Destroying txdata raw
+ 08:05:22.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:05:22.859   tdta03CF9920 Destroying txdata raw
+ 08:05:37.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:05:37.859   tdta03CF9920 Destroying txdata raw
+ 08:05:52.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:05:52.859   tdta03CF9920 Destroying txdata raw
+ 08:06:07.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:06:07.859   tdta03CF9920 Destroying txdata raw
+ 08:06:22.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:06:22.859   tdta03CF9920 Destroying txdata raw
+ 08:06:37.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:06:37.859   tdta03CF9920 Destroying txdata raw
+ 08:06:51.468 sip_endpoint.c Processing incoming message: Request msg INVITE/cseq=102 (rdata03CEAF6C)
+ 08:06:51.468   pjsua_core.c RX 751 bytes Request msg INVITE/cseq=102 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+INVITE sip:3000@10.1.1.139:5061 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5060;branch=z9hG4bK186dee9a;rport
+From: "3001" <sip:3001@10.1.1.139>;tag=as51ddcef3
+To: <sip:3000@10.1.1.139:5061>
+Contact: <sip:3001@10.1.1.139>
+Call-ID: 493232c665b59d3d361761143673811f@10.1.1.139
+CSeq: 102 INVITE
+User-Agent: Asterisk PBX
+Max-Forwards: 70
+Date: Thu, 21 Aug 2008 06:06:51 GMT
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY
+Content-Type: application/sdp
+Content-Length: 257
+
+v=0
+o=root 4364 4364 IN IP4 10.1.1.139
+s=session
+c=IN IP4 10.1.1.139
+t=0 0
+m=audio 13456 RTP/AVP 0 3 8 101
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=silenceSupp:off - - - -
+
+--end msg--
+ 08:06:51.515  pjsua_media.c Media index 0 selected for call 0
+ 08:06:51.531    tsx03CFF604 Transaction created for Request msg INVITE/cseq=102 (rdata03CEAF6C)
+ 08:06:51.531    tsx03CFF604 Incoming Request msg INVITE/cseq=102 (rdata03CEAF6C) in state Null
+ 08:06:51.531    tsx03CFF604 State changed from Null to Trying, event=RX_MSG
+ 08:06:51.531    dlg03CFEDFC Transaction tsx03CFF604 state changed to Trying
+ 08:06:51.531    dlg03CFEDFC UAS dialog created
+ 08:06:51.531    dlg03CFEDFC Module mod-invite added as dialog usage, data=03CFF4A8
+ 08:06:51.531    dlg03CFEDFC Session count inc to 2 by mod-invite
+ 08:06:51.531    inv03CFEDFC UAS invite session created for dialog dlg03CFEDFC
+ 08:06:51.531   pjsua_call.c Call 0: remote NAT type is 0 (Unknown)
+ 08:06:51.531       endpoint Response msg 100/INVITE/cseq=102 (tdta03D011D8) created
+ 08:06:51.531    dlg03CFEDFC Initial answer Response msg 100/INVITE/cseq=102 (tdta03D011D8)
+ 08:06:51.531    inv03CFEDFC Sending Response msg 100/INVITE/cseq=102 (tdta03D011D8)
+ 08:06:51.531    dlg03CFEDFC Sending Response msg 100/INVITE/cseq=102 (tdta03D011D8)
+ 08:06:51.531    tsx03CFF604 Sending Response msg 100/INVITE/cseq=102 (tdta03D011D8) in state Trying
+ 08:06:51.531   pjsua_core.c TX 280 bytes Response msg 100/INVITE/cseq=102 (tdta03D011D8) to UDP 10.1.1.139:5060:
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.1.1.139:5060;rport=5060;received=10.1.1.139;branch=z9hG4bK186dee9a
+Call-ID: 493232c665b59d3d361761143673811f@10.1.1.139
+From: "3001" <sip:3001@10.1.1.139>;tag=as51ddcef3
+To: <sip:3000@10.1.1.139>
+CSeq: 102 INVITE
+Content-Length:  0
+
+
+--end msg--
+ 08:06:51.531    tsx03CFF604 State changed from Trying to Proceeding, event=TX_MSG
+ 08:06:51.531    dlg03CFEDFC Transaction tsx03CFF604 state changed to Proceeding
+ 08:06:51.546   pjsipDll.cpp Call 0 state changed to INCOMING
+ 08:06:51.750    inv03CFEDFC SDP negotiation done, status=0
+ 08:06:51.750   pjsua_call.c Call 0: remote NAT type is 0 (Unknown)
+ 08:06:51.750   strm03D04454 VAD temporarily disabled
+ 08:06:51.765          rtp.c pjmedia_rtp_session_init: ses=03D05674, default_pt=0, ssrc=0x294823
+ 08:06:51.765          rtp.c pjmedia_rtp_session_init: ses=03D0627C, default_pt=0, ssrc=0x294823
+ 08:06:51.765       stream.c Stream strm03D04454 created
+ 08:06:51.765   strm03D04454 Encoder stream started
+ 08:06:51.765   strm03D04454 Decoder stream started
+ 08:06:51.765     resample.c resample created: high qualiy, large filter, in/out rate=8000/16000
+ 08:06:51.765     resample.c resample created: high qualiy, large filter, in/out rate=16000/8000
+ 08:06:51.765  pjsua_media.c Media updates, stream #0: PCMU (sendrecv)
+ 08:06:51.765  pjsua_media.c pjsua_set_snd_dev(): attempting to open devices @16000 Hz
+ 08:06:51.843      pasound.c Opened device SoundMAX HD Audio(MME)/SoundMAX HD Audio(MME) for recording and playback, sample rate=16000, ch=1, bits=16, 320 samples per frame, input latency=100 ms, output latency=100 ms
+ 08:06:51.843      pasound.c Starting SoundMAX HD Audio stream..
+ 08:06:51.859      pasound.c PA message: Pa_StartStream: waveInStart returned = 0x0.
+
+ 08:06:51.859      pasound.c Done, status=0
+ 08:06:51.875      pasound.c Player thread started
+ 08:06:51.890      pasound.c Recorder thread started
+ 08:06:51.890   echo_speex.c Speex Echo canceller/AEC created, clock_rate=16000, samples per frame=320, tail length=200 ms, latency=200 ms
+ 08:06:51.890   conference.c Port 1 (sip:3001@10.1.1.139) transmitting to port 0 (SoundMAX HD Audio)
+ 08:06:51.890   conference.c Port 0 (SoundMAX HD Audio) transmitting to port 1 (sip:3001@10.1.1.139)
+ 08:06:51.890   pjsipDll.cpp Media for call 0 is active
+ 08:06:51.890    inv03CFEDFC Sending Response msg 200/INVITE/cseq=102 (tdta03D011D8)
+ 08:06:51.890    dlg03CFEDFC Sending Response msg 200/INVITE/cseq=102 (tdta03D011D8)
+ 08:06:51.890    tsx03CFF604 Sending Response msg 200/INVITE/cseq=102 (tdta03D011D8) in state Proceeding
+ 08:06:51.890   pjsua_core.c TX 771 bytes Response msg 200/INVITE/cseq=102 (tdta03D011D8) to UDP 10.1.1.139:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.1.1.139:5060;rport=5060;received=10.1.1.139;branch=z9hG4bK186dee9a
+Call-ID: 493232c665b59d3d361761143673811f@10.1.1.139
+From: "3001" <sip:3001@10.1.1.139>;tag=as51ddcef3
+To: <sip:3000@10.1.1.139>;tag=8e525e94dd6b4ed88a6f45777808a1a1
+CSeq: 102 INVITE
+Contact: <sip:3000@10.1.1.139:5061>
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, PUBLISH, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel, norefersub
+Content-Type: application/sdp
+Content-Length:   245
+
+v=0
+o=- 3428294811 3428294812 IN IP4 10.1.1.139
+s=pjmedia
+c=IN IP4 10.1.1.139
+t=0 0
+a=X-nat:0
+m=audio 4000 RTP/AVP 0 101
+a=rtcp:4001 IN IP4 10.1.1.139
+a=rtpmap:0 PCMU/8000
+a=sendrecv
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+--end msg--
+ 08:06:51.890    tsx03CFF604 State changed from Proceeding to Completed, event=TX_MSG
+ 08:06:51.890    dlg03CFEDFC Transaction tsx03CFF604 state changed to Completed
+ 08:06:51.890   pjsipDll.cpp Call 0 state changed to CONNECTING
+ 08:06:51.890   Master/sound Underflow, buf_cnt=0, will generate 1 frame
+ 08:06:51.890   strm03D04454 Jitter buffer empty (prefetch=1)
+ 08:06:51.890   strm03D04454 RTP status: badpt=0, badssrc=0, dup=0, outorder=0, probation=-1, restart=0
+ 08:06:51.906    inv03CFEDFC Sending Response msg 180/INVITE/cseq=102 (tdta03D011D8)
+ 08:06:51.906    dlg03CFEDFC Sending Response msg 180/INVITE/cseq=102 (tdta03D011D8)
+ 08:06:51.906    tsx03CFF604 Sending Response msg 180/INVITE/cseq=102 (tdta03D011D8) in state Completed
+ 08:06:51.937   strm03D04454 Start talksprut..
+ 08:06:51.937    aec03D09084 AEC reset, delay=-1, prefetch=4
+ 08:06:51.937   strm03D04454 jb updated(2), prefetch=3, size=4
+ 08:06:51.953    aec03D09084  AEC Info: old frame removed (seq=1, want=-2, count=3)
+ 08:06:51.953    aec03D09084  AEC Info: old frame removed (seq=2, want=-2, count=2)
+ 08:06:51.953    aec03D09084  AEC Info: old frame removed (seq=3, want=-2, count=1)
+ 08:06:51.953    aec03D09084  AEC Info: empty queue for seq=-2!
+ 08:06:51.953   strm03D04454 Jitter buffer empty (prefetch=3)
+ 08:06:51.968    aec03D09084  AEC Info: old frame removed (seq=4, want=-1, count=1)
+ 08:06:51.968    aec03D09084  AEC Info: empty queue for seq=-1!
+ 08:06:51.968   Master/sound Underflow, buf_cnt=0, will generate 1 frame
+ 08:06:51.968   strm03D04454 jb updated(2), prefetch=4, size=4
+ 08:06:51.984    aec03D09084  AEC Info: prefetching (first seq=5)
+ 08:06:52.015    aec03D09084  AEC Info: prefetching (first seq=5)
+ 08:06:52.031    aec03D09084  AEC Info: prefetching (first seq=5)
+ 08:06:52.046    aec03D09084  AEC Info: prefetching (first seq=5)
+ 08:06:52.046 sip_endpoint.c Processing incoming message: Request msg ACK/cseq=102 (rdata03CEAF6C)
+ 08:06:52.046   pjsua_core.c RX 387 bytes Request msg ACK/cseq=102 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+ACK sip:3000@10.1.1.139:5061 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5060;branch=z9hG4bK57bfcf7d;rport
+From: "3001" <sip:3001@10.1.1.139>;tag=as51ddcef3
+To: <sip:3000@10.1.1.139:5061>;tag=8e525e94dd6b4ed88a6f45777808a1a1
+Contact: <sip:3001@10.1.1.139>
+Call-ID: 493232c665b59d3d361761143673811f@10.1.1.139
+CSeq: 102 ACK
+User-Agent: Asterisk PBX
+Max-Forwards: 70
+Content-Length: 0
+
+
+--end msg--
+ 08:06:52.046    dlg03CFEDFC Received Request msg ACK/cseq=102 (rdata03CEAF6C)
+ 08:06:52.046    tsx03CFF604 Request to terminate transaction
+ 08:06:52.046    tsx03CFF604 State changed from Completed to Terminated, event=USER
+ 08:06:52.046    dlg03CFEDFC Transaction tsx03CFF604 state changed to Terminated
+ 08:06:52.046   pjsipDll.cpp Call 0 state changed to CONFIRMED
+ 08:06:52.046    tsx03CFF604 Timeout timer event
+ 08:06:52.046    tsx03CFF604 State changed from Terminated to Destroyed, event=TIMER
+ 08:06:52.046   tdta03D011D8 Destroying txdata Response msg 180/INVITE/cseq=102 (tdta03D011D8)
+ 08:06:52.046    tsx03CFF604 Transaction destroyed!
+ 08:06:52.062    aec03D09084  AEC Info: prefetching (first seq=5)
+ 08:06:52.125    aec03D09084  AEC info: queue is full, frame discarded [count=6, seq=13]
+ 08:06:52.125    aec03D09084 AEC reset, delay=2, prefetch=4
+ 08:06:52.125    aec03D09084  AEC Info: prefetching (first seq=13)
+ 08:06:52.156    aec03D09084  AEC Info: prefetching (first seq=13)
+ 08:06:52.171    aec03D09084  AEC Info: prefetching (first seq=13)
+ 08:06:52.500   strm03D04454 VAD re-enabled
+ 08:06:52.531   strm03D04454 Starting silence
+ 08:06:52.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:06:52.859   tdta03CFCE48 Destroying txdata raw
+ 08:06:53.000   strm03D04454 Start talksprut..
+ 08:06:53.031   strm03D04454 Starting silence
+ 08:06:53.515   strm03D04454 Start talksprut..
+ 08:06:53.531   strm03D04454 Starting silence
+ 08:06:53.984   strm03D04454 jb updated(1), prefetch=3, size=4
+ 08:06:54.015   strm03D04454 Start talksprut..
+ 08:06:54.031   strm03D04454 Starting silence
+ 08:06:54.515   strm03D04454 Start talksprut..
+ 08:06:54.531   strm03D04454 Starting silence
+ 08:06:55.015   strm03D04454 Start talksprut..
+ 08:06:55.031   strm03D04454 Starting silence
+ 08:06:55.515   strm03D04454 Start talksprut..
+ 08:06:55.531   strm03D04454 Starting silence
+ 08:06:56.015   strm03D04454 jb updated(1), prefetch=2, size=4
+ 08:06:56.015   strm03D04454 JB shrinking 1 frame(s), size=3
+ 08:06:56.015   strm03D04454 Start talksprut..
+ 08:06:56.031   strm03D04454 Starting silence
+ 08:06:56.515   silencedet.c Vad cur_threshold updated 4-->3. Signal lo=-1
+ 08:06:56.515   strm03D04454 Start talksprut..
+ 08:06:56.531   strm03D04454 Starting silence
+ 08:06:57.000   strm03D04454 Start talksprut..
+ 08:06:57.031   strm03D04454 Starting silence
+ 08:06:57.500   strm03D04454 Start talksprut..
+ 08:06:57.531   strm03D04454 Starting silence
+ 08:06:58.015   strm03D04454 Start talksprut..
+ 08:06:58.031   strm03D04454 Starting silence
+ 08:06:58.515   strm03D04454 Start talksprut..
+ 08:06:58.531   strm03D04454 Starting silence
+ 08:06:59.015   strm03D04454 Start talksprut..
+ 08:06:59.031   strm03D04454 Starting silence
+ 08:06:59.515   strm03D04454 Start talksprut..
+ 08:06:59.531   strm03D04454 Starting silence
+ 08:07:00.015   strm03D04454 Start talksprut..
+ 08:07:00.031   strm03D04454 Starting silence
+ 08:07:00.515   strm03D04454 Start talksprut..
+ 08:07:00.531   silencedet.c Vad cur_threshold updated 3-->2. Signal lo=-1
+ 08:07:00.531   strm03D04454 Starting silence
+ 08:07:01.015   strm03D04454 Start talksprut..
+ 08:07:01.031   strm03D04454 Starting silence
+ 08:07:01.500   strm03D04454 Start talksprut..
+ 08:07:01.531   strm03D04454 Starting silence
+ 08:07:02.000   strm03D04454 Start talksprut..
+ 08:07:02.031   strm03D04454 Starting silence
+ 08:07:02.515   strm03D04454 Start talksprut..
+ 08:07:02.531   strm03D04454 Starting silence
+ 08:07:03.015   strm03D04454 Start talksprut..
+ 08:07:03.031   strm03D04454 Starting silence
+ 08:07:03.515   strm03D04454 Start talksprut..
+ 08:07:03.531   strm03D04454 Starting silence
+ 08:07:04.015   strm03D04454 Start talksprut..
+ 08:07:04.031   strm03D04454 Starting silence
+ 08:07:04.515   strm03D04454 Start talksprut..
+ 08:07:04.531   strm03D04454 Starting silence
+ 08:07:05.015   strm03D04454 Start talksprut..
+ 08:07:05.031   strm03D04454 Starting silence
+ 08:07:05.515   strm03D04454 Start talksprut..
+ 08:07:05.531   strm03D04454 Starting silence
+ 08:07:06.000   strm03D04454 Start talksprut..
+ 08:07:06.031   strm03D04454 Starting silence
+ 08:07:06.500   strm03D04454 Start talksprut..
+ 08:07:06.531   strm03D04454 Starting silence
+ 08:07:07.015   strm03D04454 Start talksprut..
+ 08:07:07.031   strm03D04454 Starting silence
+ 08:07:07.515   strm03D04454 Start talksprut..
+ 08:07:07.531   strm03D04454 Starting silence
+ 08:07:07.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:07:07.859   tdta03CFCE48 Destroying txdata raw
+ 08:07:08.015   strm03D04454 Start talksprut..
+ 08:07:08.031   strm03D04454 Starting silence
+ 08:07:08.515   strm03D04454 Start talksprut..
+ 08:07:08.531   strm03D04454 Starting silence
+ 08:07:09.015   strm03D04454 Start talksprut..
+ 08:07:09.031   strm03D04454 Starting silence
+ 08:07:09.515   strm03D04454 Start talksprut..
+ 08:07:09.531   strm03D04454 Starting silence
+ 08:07:10.015   strm03D04454 Start talksprut..
+ 08:07:10.031   strm03D04454 Starting silence
+ 08:07:10.500   strm03D04454 Start talksprut..
+ 08:07:10.531   strm03D04454 Starting silence
+ 08:07:11.000   strm03D04454 Start talksprut..
+ 08:07:11.031   strm03D04454 Starting silence
+ 08:07:11.515   strm03D04454 Start talksprut..
+ 08:07:11.531   strm03D04454 Starting silence
+ 08:07:12.015   strm03D04454 Start talksprut..
+ 08:07:12.031   strm03D04454 Starting silence
+ 08:07:12.234   strm03D04454 Jitter buffer empty (prefetch=2)
+ 08:07:12.250   strm03D04454 jb updated(2), prefetch=4, size=4
+ 08:07:12.515   strm03D04454 Start talksprut..
+ 08:07:12.531   strm03D04454 Starting silence
+ 08:07:13.015   strm03D04454 Start talksprut..
+ 08:07:13.031   strm03D04454 Starting silence
+ 08:07:13.515   strm03D04454 Start talksprut..
+ 08:07:13.531   strm03D04454 Starting silence
+ 08:07:14.015   strm03D04454 Start talksprut..
+ 08:07:14.031   strm03D04454 Starting silence
+ 08:07:14.265   strm03D04454 jb updated(1), prefetch=3, size=4
+ 08:07:14.515   strm03D04454 Start talksprut..
+ 08:07:14.531   strm03D04454 Starting silence
+ 08:07:15.000   strm03D04454 Start talksprut..
+ 08:07:15.031   strm03D04454 Starting silence
+ 08:07:15.500   strm03D04454 Start talksprut..
+ 08:07:15.531   strm03D04454 Starting silence
+ 08:07:16.015   strm03D04454 Start talksprut..
+ 08:07:16.031   strm03D04454 Starting silence
+ 08:07:16.296   strm03D04454 jb updated(1), prefetch=2, size=4
+ 08:07:16.296   strm03D04454 JB shrinking 1 frame(s), size=3
+ 08:07:16.515   strm03D04454 Start talksprut..
+ 08:07:16.531   strm03D04454 Starting silence
+ 08:07:17.015   strm03D04454 Start talksprut..
+ 08:07:17.031   strm03D04454 Starting silence
+ 08:07:17.515   strm03D04454 Start talksprut..
+ 08:07:17.531   strm03D04454 Starting silence
+ 08:07:18.015   strm03D04454 Start talksprut..
+ 08:07:18.031   strm03D04454 Starting silence
+ 08:07:18.515   strm03D04454 Start talksprut..
+ 08:07:18.531   strm03D04454 Starting silence
+ 08:07:19.015   strm03D04454 Start talksprut..
+ 08:07:19.031   strm03D04454 Starting silence
+ 08:07:19.500   strm03D04454 Start talksprut..
+ 08:07:19.531   strm03D04454 Starting silence
+ 08:07:20.000   strm03D04454 Start talksprut..
+ 08:07:20.031   strm03D04454 Starting silence
+ 08:07:20.515   strm03D04454 Start talksprut..
+ 08:07:20.531   strm03D04454 Starting silence
+ 08:07:21.015   strm03D04454 Start talksprut..
+ 08:07:21.031   strm03D04454 Starting silence
+ 08:07:21.515   strm03D04454 Start talksprut..
+ 08:07:21.531   strm03D04454 Starting silence
+ 08:07:22.015   strm03D04454 Start talksprut..
+ 08:07:22.031   strm03D04454 Starting silence
+ 08:07:22.515   strm03D04454 Start talksprut..
+ 08:07:22.531   strm03D04454 Starting silence
+ 08:07:22.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:07:22.859   tdta03CFCE48 Destroying txdata raw
+ 08:07:23.015   strm03D04454 Start talksprut..
+ 08:07:23.031   strm03D04454 Starting silence
+ 08:07:23.515   strm03D04454 Start talksprut..
+ 08:07:23.531   strm03D04454 Starting silence
+ 08:07:24.000   strm03D04454 Start talksprut..
+ 08:07:24.031   strm03D04454 Starting silence
+ 08:07:24.500   strm03D04454 Start talksprut..
+ 08:07:24.531   strm03D04454 Starting silence
+ 08:07:25.015   strm03D04454 Start talksprut..
+ 08:07:25.031   strm03D04454 Starting silence
+ 08:07:25.515   strm03D04454 Start talksprut..
+ 08:07:25.531   strm03D04454 Starting silence
+ 08:07:26.015   strm03D04454 Start talksprut..
+ 08:07:26.031   strm03D04454 Starting silence
+ 08:07:26.515   strm03D04454 Start talksprut..
+ 08:07:26.531   strm03D04454 Starting silence
+ 08:07:27.015   strm03D04454 Start talksprut..
+ 08:07:27.031   strm03D04454 Starting silence
+ 08:07:27.515   strm03D04454 Start talksprut..
+ 08:07:27.531   strm03D04454 Jitter buffer empty (prefetch=2)
+ 08:07:27.531   strm03D04454 Starting silence
+ 08:07:27.546   strm03D04454 jb updated(2), prefetch=4, size=4
+ 08:07:28.015   strm03D04454 Start talksprut..
+ 08:07:28.031   strm03D04454 Starting silence
+ 08:07:28.500   strm03D04454 Start talksprut..
+ 08:07:28.531   strm03D04454 Starting silence
+ 08:07:29.000   strm03D04454 Start talksprut..
+ 08:07:29.031   strm03D04454 Starting silence
+ 08:07:29.515   strm03D04454 Start talksprut..
+ 08:07:29.531   strm03D04454 Starting silence
+ 08:07:29.562   strm03D04454 jb updated(1), prefetch=3, size=4
+ 08:07:30.015   strm03D04454 Start talksprut..
+ 08:07:30.031   strm03D04454 Starting silence
+ 08:07:30.515   strm03D04454 Start talksprut..
+ 08:07:30.531   strm03D04454 Starting silence
+ 08:07:31.015   strm03D04454 Start talksprut..
+ 08:07:31.031   strm03D04454 Starting silence
+ 08:07:31.500   strm03D04454 jb updated(2), prefetch=4, size=6
+ 08:07:31.500   strm03D04454 JB shrinking 1 frame(s), size=5
+ 08:07:31.515   strm03D04454 Start talksprut..
+ 08:07:31.531   strm03D04454 Starting silence
+ 08:07:32.015   strm03D04454 Start talksprut..
+ 08:07:32.031   strm03D04454 Starting silence
+ 08:07:32.515   strm03D04454 Start talksprut..
+ 08:07:32.531   strm03D04454 Starting silence
+ 08:07:33.000   strm03D04454 Start talksprut..
+ 08:07:33.031   strm03D04454 Starting silence
+ 08:07:33.500   strm03D04454 Start talksprut..
+ 08:07:33.531   strm03D04454 jb updated(1), prefetch=3, size=3
+ 08:07:33.531   strm03D04454 Starting silence
+ 08:07:34.015   strm03D04454 Start talksprut..
+ 08:07:34.031   strm03D04454 Starting silence
+ 08:07:34.250   strm03D04454 jb updated(2), prefetch=4, size=5
+ 08:07:34.515   strm03D04454 Start talksprut..
+ 08:07:34.531   strm03D04454 Starting silence
+ 08:07:35.015   strm03D04454 Start talksprut..
+ 08:07:35.031   strm03D04454 Starting silence
+ 08:07:35.515   strm03D04454 Start talksprut..
+ 08:07:35.531   strm03D04454 Starting silence
+ 08:07:36.015   strm03D04454 Start talksprut..
+ 08:07:36.031   strm03D04454 Starting silence
+ 08:07:36.515   strm03D04454 Start talksprut..
+ 08:07:36.531   strm03D04454 Starting silence
+ 08:07:37.015   strm03D04454 Start talksprut..
+ 08:07:37.031   strm03D04454 Starting silence
+ 08:07:37.500   strm03D04454 Start talksprut..
+ 08:07:37.531   strm03D04454 Starting silence
+ 08:07:37.781   strm03D04454 Jitter buffer empty (prefetch=4)
+ 08:07:37.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:07:37.859   tdta03CFCE48 Destroying txdata raw
+ 08:07:38.000   strm03D04454 Start talksprut..
+ 08:07:38.031   strm03D04454 Starting silence
+ 08:07:38.515   strm03D04454 Start talksprut..
+ 08:07:38.531   strm03D04454 Starting silence
+ 08:07:39.015   strm03D04454 Start talksprut..
+ 08:07:39.031   strm03D04454 Starting silence
+ 08:07:39.515   strm03D04454 Start talksprut..
+ 08:07:39.531   strm03D04454 Starting silence
+ 08:07:40.015   strm03D04454 Start talksprut..
+ 08:07:40.031   strm03D04454 Starting silence
+ 08:07:40.515   strm03D04454 Start talksprut..
+ 08:07:40.531   strm03D04454 Starting silence
+ 08:07:41.015   strm03D04454 Start talksprut..
+ 08:07:41.031   strm03D04454 Starting silence
+ 08:07:41.515   strm03D04454 Start talksprut..
+ 08:07:41.531   strm03D04454 Starting silence
+ 08:07:42.000   strm03D04454 Start talksprut..
+ 08:07:42.031   strm03D04454 Starting silence
+ 08:07:42.500   strm03D04454 Start talksprut..
+ 08:07:42.531   strm03D04454 Starting silence
+ 08:07:43.015   strm03D04454 Start talksprut..
+ 08:07:43.031   strm03D04454 Starting silence
+ 08:07:43.515   strm03D04454 Start talksprut..
+ 08:07:43.531   strm03D04454 Starting silence
+ 08:07:44.015   strm03D04454 Start talksprut..
+ 08:07:44.031   strm03D04454 Starting silence
+ 08:07:44.515   strm03D04454 Start talksprut..
+ 08:07:44.531   strm03D04454 Starting silence
+ 08:07:45.015   strm03D04454 Start talksprut..
+ 08:07:45.031   strm03D04454 Starting silence
+ 08:07:45.515   strm03D04454 Start talksprut..
+ 08:07:45.531   strm03D04454 Starting silence
+ 08:07:46.015   strm03D04454 Start talksprut..
+ 08:07:46.031   strm03D04454 Starting silence
+ 08:07:46.500   strm03D04454 Start talksprut..
+ 08:07:46.531   strm03D04454 Starting silence
+ 08:07:47.000   strm03D04454 Start talksprut..
+ 08:07:47.031   strm03D04454 Starting silence
+ 08:07:47.515   strm03D04454 Start talksprut..
+ 08:07:47.531   strm03D04454 Starting silence
+ 08:07:48.015   strm03D04454 Start talksprut..
+ 08:07:48.031   strm03D04454 Starting silence
+ 08:07:48.515   strm03D04454 Start talksprut..
+ 08:07:48.531   strm03D04454 Starting silence
+ 08:07:49.015   strm03D04454 Start talksprut..
+ 08:07:49.031   strm03D04454 Starting silence
+ 08:07:49.515   strm03D04454 Start talksprut..
+ 08:07:49.531   strm03D04454 Starting silence
+ 08:07:50.015   strm03D04454 Start talksprut..
+ 08:07:50.031   strm03D04454 Starting silence
+ 08:07:50.515   strm03D04454 Start talksprut..
+ 08:07:50.531   strm03D04454 Starting silence
+ 08:07:51.000   strm03D04454 Start talksprut..
+ 08:07:51.031   strm03D04454 Starting silence
+ 08:07:51.500   strm03D04454 Start talksprut..
+ 08:07:51.531   strm03D04454 Starting silence
+ 08:07:52.015   strm03D04454 Start talksprut..
+ 08:07:52.031   strm03D04454 Starting silence
+ 08:07:52.515   strm03D04454 Start talksprut..
+ 08:07:52.531   strm03D04454 Starting silence
+ 08:07:52.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:07:52.859   tdta03CFCE48 Destroying txdata raw
+ 08:07:53.015   strm03D04454 Start talksprut..
+ 08:07:53.031   strm03D04454 Starting silence
+ 08:07:53.515   strm03D04454 Start talksprut..
+ 08:07:53.531   strm03D04454 Starting silence
+ 08:07:54.015   strm03D04454 Start talksprut..
+ 08:07:54.031   strm03D04454 Starting silence
+ 08:07:54.515   strm03D04454 Start talksprut..
+ 08:07:54.531   strm03D04454 Starting silence
+ 08:07:55.015   strm03D04454 Start talksprut..
+ 08:07:55.031   strm03D04454 Starting silence
+ 08:07:55.046   strm03D04454 Jitter buffer empty (prefetch=4)
+ 08:07:55.093   strm03D04454 jb updated(2), prefetch=6, size=6
+ 08:07:55.500   strm03D04454 Start talksprut..
+ 08:07:55.531   strm03D04454 Starting silence
+ 08:07:55.812   strm03D04454 JB shrinking 1 frame(s), size=7
+ 08:07:55.968   strm03D04454 Jitter buffer empty (prefetch=6)
+ 08:07:56.000   strm03D04454 Start talksprut..
+ 08:07:56.031   strm03D04454 Starting silence
+ 08:07:56.171   strm03D04454 JB shrinking 1 frame(s), size=7
+ 08:07:56.265   strm03D04454 Jitter buffer empty (prefetch=6)
+ 08:07:56.390   strm03D04454 jb updated(2), prefetch=16, size=16
+ 08:07:56.515   strm03D04454 Start talksprut..
+ 08:07:56.531   strm03D04454 Starting silence
+ 08:07:56.609   strm03D04454 JB shrinking 1 frame(s), size=17
+ 08:07:57.015   strm03D04454 Start talksprut..
+ 08:07:57.031   strm03D04454 Starting silence
+ 08:07:57.515   strm03D04454 Start talksprut..
+ 08:07:57.531   strm03D04454 Starting silence
+ 08:07:58.015   strm03D04454 Start talksprut..
+ 08:07:58.031   strm03D04454 Starting silence
+ 08:07:58.515   strm03D04454 Start talksprut..
+ 08:07:58.531   strm03D04454 Starting silence
+ 08:07:58.890   strm03D04454 Jitter buffer empty (prefetch=16)
+ 08:07:58.937   strm03D04454 JB shrinking 1 frame(s), size=17
+ 08:07:59.015   strm03D04454 Start talksprut..
+ 08:07:59.031   strm03D04454 Starting silence
+ 08:07:59.296   strm03D04454 Jitter buffer empty (prefetch=16)
+ 08:07:59.375   strm03D04454 JB shrinking 1 frame(s), size=17
+ 08:07:59.515   strm03D04454 Start talksprut..
+ 08:07:59.531   strm03D04454 Starting silence
+ 08:08:00.000   strm03D04454 Start talksprut..
+ 08:08:00.031   strm03D04454 Starting silence
+ 08:08:00.500   strm03D04454 Start talksprut..
+ 08:08:00.531   strm03D04454 Starting silence
+ 08:08:01.015   strm03D04454 Start talksprut..
+ 08:08:01.031   strm03D04454 Starting silence
+ 08:08:01.515   strm03D04454 Start talksprut..
+ 08:08:01.531   strm03D04454 Starting silence
+ 08:08:01.625   strm03D04454 jb updated(1), prefetch=15, size=15
+ 08:08:01.687   strm03D04454 JB shrinking 1 frame(s), size=16
+ 08:08:02.015   strm03D04454 Start talksprut..
+ 08:08:02.031   strm03D04454 Starting silence
+ 08:08:02.515   strm03D04454 Start talksprut..
+ 08:08:02.531   strm03D04454 Starting silence
+ 08:08:03.015   strm03D04454 Start talksprut..
+ 08:08:03.031   strm03D04454 Starting silence
+ 08:08:03.515   strm03D04454 Start talksprut..
+ 08:08:03.531   strm03D04454 Starting silence
+ 08:08:03.968   strm03D04454 jb updated(1), prefetch=12, size=14
+ 08:08:03.968   strm03D04454 JB shrinking 1 frame(s), size=13
+ 08:08:04.015   strm03D04454 Start talksprut..
+ 08:08:04.031   strm03D04454 Starting silence
+ 08:08:04.234   strm03D04454 JB shrinking 1 frame(s), size=14
+ 08:08:04.453   strm03D04454 JB shrinking 1 frame(s), size=13
+ 08:08:04.500   strm03D04454 Start talksprut..
+ 08:08:04.531   strm03D04454 Starting silence
+ 08:08:05.000   strm03D04454 Start talksprut..
+ 08:08:05.031   strm03D04454 Starting silence
+ 08:08:05.515   strm03D04454 Start talksprut..
+ 08:08:05.531   strm03D04454 Starting silence
+ 08:08:05.687   strm03D04454 Start talksprut..
+ 08:08:06.218   strm03D04454 jb updated(1), prefetch=10, size=11
+ 08:08:06.328          speex warning: The echo canceller started acting funny and got slapped (reset). It swears it will behave now.
+ 08:08:06.328   strm03D04454 JB shrinking 1 frame(s), size=12
+ 08:08:06.781   strm03D04454 JB shrinking 1 frame(s), size=11
+ 08:08:07.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:08:07.859   tdta03CFCE48 Destroying txdata raw
+ 08:08:08.421   strm03D04454 jb updated(1), prefetch=8, size=9
+ 08:08:08.453   strm03D04454 JB shrinking 1 frame(s), size=10
+ 08:08:08.734   strm03D04454 JB shrinking 1 frame(s), size=9
+ 08:08:09.671   silencedet.c Vad cur_threshold updated 2-->16. Signal lo=30
+ 08:08:10.671   strm03D04454 jb updated(1), prefetch=7, size=7
+ 08:08:10.687   strm03D04454 JB shrinking 1 frame(s), size=8
+ 08:08:12.921   strm03D04454 jb updated(1), prefetch=6, size=6
+ 08:08:13.234   strm03D04454 JB shrinking 1 frame(s), size=7
+ 08:08:13.687   silencedet.c Vad cur_threshold updated 16-->18. Signal lo=19
+ 08:08:15.093   strm03D04454 jb updated(1), prefetch=5, size=5
+ 08:08:15.187   strm03D04454 JB shrinking 1 frame(s), size=6
+ 08:08:17.250   strm03D04454 jb updated(1), prefetch=4, size=2
+ 08:08:17.703   silencedet.c Vad cur_threshold updated 18-->19. Signal lo=19
+ 08:08:17.875   strm03D04454 Jitter buffer empty (prefetch=4)
+ 08:08:18.500   strm03D04454 Jitter buffer empty (prefetch=4)
+ 08:08:18.671   strm03D04454 jb updated(2), prefetch=12, size=14
+ 08:08:18.671   strm03D04454 JB shrinking 1 frame(s), size=13
+ 08:08:18.875   strm03D04454 JB shrinking 1 frame(s), size=14
+ 08:08:19.093   strm03D04454 JB shrinking 1 frame(s), size=13
+ 08:08:19.328   strm03D04454 JB shrinking 1 frame(s), size=14
+ 08:08:19.609   strm03D04454 JB shrinking 1 frame(s), size=13
+ 08:08:21.000 sip_endpoint.c Processing incoming message: Request msg BYE/cseq=103 (rdata03CEAF6C)
+ 08:08:21.000   pjsua_core.c RX 355 bytes Request msg BYE/cseq=103 (rdata03CEAF6C) from UDP 10.1.1.139:5060:
+BYE sip:3000@10.1.1.139:5061 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5060;branch=z9hG4bK16a31169;rport
+From: "3001" <sip:3001@10.1.1.139>;tag=as51ddcef3
+To: <sip:3000@10.1.1.139:5061>;tag=8e525e94dd6b4ed88a6f45777808a1a1
+Call-ID: 493232c665b59d3d361761143673811f@10.1.1.139
+CSeq: 103 BYE
+User-Agent: Asterisk PBX
+Max-Forwards: 70
+Content-Length: 0
+
+
+--end msg--
+ 08:08:21.000    dlg03CFEDFC Received Request msg BYE/cseq=103 (rdata03CEAF6C)
+ 08:08:21.000    tsx03CF9984 Transaction created for Request msg BYE/cseq=103 (rdata03CEAF6C)
+ 08:08:21.000    tsx03CF9984 Incoming Request msg BYE/cseq=103 (rdata03CEAF6C) in state Null
+ 08:08:21.000    tsx03CF9984 State changed from Null to Trying, event=RX_MSG
+ 08:08:21.000    dlg03CFEDFC Transaction tsx03CF9984 state changed to Trying
+ 08:08:21.000       endpoint Response msg 200/BYE/cseq=103 (tdta03CFCE48) created
+ 08:08:21.000    dlg03CFEDFC Sending Response msg 200/BYE/cseq=103 (tdta03CFCE48)
+ 08:08:21.000    tsx03CF9984 Sending Response msg 200/BYE/cseq=103 (tdta03CFCE48) in state Trying
+ 08:08:21.000   pjsua_core.c TX 310 bytes Response msg 200/BYE/cseq=103 (tdta03CFCE48) to UDP 10.1.1.139:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.1.1.139:5060;rport=5060;received=10.1.1.139;branch=z9hG4bK16a31169
+Call-ID: 493232c665b59d3d361761143673811f@10.1.1.139
+From: "3001" <sip:3001@10.1.1.139>;tag=as51ddcef3
+To: <sip:3000@10.1.1.139>;tag=8e525e94dd6b4ed88a6f45777808a1a1
+CSeq: 103 BYE
+Content-Length:  0
+
+
+--end msg--
+ 08:08:21.000    tsx03CF9984 State changed from Trying to Completed, event=TX_MSG
+ 08:08:21.000    dlg03CFEDFC Transaction tsx03CF9984 state changed to Completed
+ 08:08:21.000   pjsipDll.cpp Call 0 is DISCONNECTED [reason=200 (Normal call clearing)]
+ 08:08:21.000   pjsipDll.cpp Call 0 disconnected, dumping media stats
+  [DISCONNCTD] To: "3001" <sip:3001@10.1.1.139>;tag=as51ddcef3
+    Call time: 00h:01m:28s, 1st res in 282 ms, conn in 578ms
+    SRTP status: Not active Crypto-suite: (null)
+    #0 PCMU @8KHz, sendrecv, peer=10.1.1.139:13456
+       RX pt=0, stat last update: 00h:00m:02.719s ago
+          total 4.4Kpkt 711.6KB (889.6KB +IP hdr) @avg=63.8Kbps/79.7Kbps
+          pkt loss=0 (0.0%), dup=0 (0.0%), reorder=0 (0.0%)
+                (msec)    min     avg     max     last    dev
+          loss period:   0.000   0.000   0.000   0.000   0.000
+          jitter     :   0.000   2.363 167.625  26.000   2.784
+       TX pt=0, ptime=20ms, stat last update: never
+          total 945pkt 151.2KB (189.0KB +IP hdr) @avg 13.5Kbps/16.9Kbps
+          pkt loss=0 (0.0%), dup=0 (0.0%), reorder=0 (0.0%)
+                (msec)    min     avg     max     last    dev 
+          loss period:   0.000   0.000   0.000   0.000   0.000
+          jitter     :   0.000   0.000   0.000   0.000   0.000
+
+ 08:08:21.015   strm03D04454 Jitter buffer empty (prefetch=12)
+ 08:08:21.031  pjsua_media.c Media session for call 0 is destroyed
+ 08:08:21.031    dlg03CFEDFC Session count dec to 3 by mod-invite
+ 08:08:22.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:08:22.859   tdta03D011D8 Destroying txdata raw
+ 08:08:26.031   sound_port.c EC suspended because of inactivity
+ 08:08:37.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:08:37.859   tdta03D011D8 Destroying txdata raw
+ 08:08:52.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:08:52.859   tdta03D011D8 Destroying txdata raw
+ 08:08:53.000    tsx03CF9984 Timeout timer event
+ 08:08:53.000    tsx03CF9984 State changed from Completed to Terminated, event=TIMER
+ 08:08:53.000    dlg03CFEDFC Transaction tsx03CF9984 state changed to Terminated
+ 08:08:53.000    dlg03CFEDFC Dialog destroyed
+ 08:08:53.000    tsx03CF9984 Timeout timer event
+ 08:08:53.000    tsx03CF9984 State changed from Terminated to Destroyed, event=TIMER
+ 08:08:53.000   tdta03CFCE48 Destroying txdata Response msg 200/BYE/cseq=103 (tdta03CFCE48)
+ 08:08:53.000    tsx03CF9984 Transaction destroyed!
+ 08:09:07.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:09:07.859   tdta03CF9920 Destroying txdata raw
+ 08:09:22.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:09:22.859   tdta03CF9920 Destroying txdata raw
+ 08:09:37.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:09:37.859   tdta03CF9920 Destroying txdata raw
+ 08:09:52.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:09:52.859   tdta03CF9920 Destroying txdata raw
+ 08:10:07.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:10:07.859   tdta03CF9920 Destroying txdata raw
+ 08:10:22.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:10:22.859   tdta03CF9920 Destroying txdata raw
+ 08:10:37.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:10:37.859   tdta03CF9920 Destroying txdata raw
+ 08:10:52.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:10:52.859   tdta03CF9920 Destroying txdata raw
+ 08:11:07.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:11:07.859   tdta03CF9920 Destroying txdata raw
+ 08:11:22.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:11:22.859   tdta03CF9920 Destroying txdata raw
+ 08:11:37.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:11:37.859   tdta03CF9920 Destroying txdata raw
+ 08:11:52.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:11:52.859   tdta03CF9920 Destroying txdata raw
+ 08:12:07.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:12:07.859   tdta03CF9920 Destroying txdata raw
+ 08:12:22.859    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 08:12:22.859   tdta03CF9920 Destroying txdata raw
+ 12:52:29.515    pjsua_acc.c Sending 2 bytes keep-alive packet for acc 0 to 10.1.1.139:5060
+ 12:52:29.515   tdta03CF9920 Destroying txdata raw
+ 12:52:29.515       endpoint Request msg REGISTER/cseq=36373 (tdta03CF9920) created.
+ 12:52:29.515    tsx03CFFA44 Transaction created for Request msg REGISTER/cseq=36374 (tdta03CF9920)
+ 12:52:29.515    tsx03CFFA44 Sending Request msg REGISTER/cseq=36374 (tdta03CF9920) in state Null
+ 12:52:29.515  sip_resolve.c Target '10.1.1.139:0' type=Unspecified resolved to '10.1.1.139:5060' type=UDP (UDP transport)
+ 12:52:29.515   pjsua_core.c TX 421 bytes Request msg REGISTER/cseq=36374 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5e429de2fcf0425f871e34c9eeaa2d97
+Max-Forwards: 70
+From: <sip:3000@10.1.1.139>;tag=789453af563d48e1b8126b5d745d1cc5
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36374 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:3000@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 12:52:29.515    tsx03CFFA44 State changed from Null to Calling, event=TX_MSG
+ 12:52:33.859    tsx03CFFA44 Retransmit timer event
+ 12:52:33.859    tsx03CFFA44 Retransmiting Request msg REGISTER/cseq=36374 (tdta03CF9920), count=0, restart?=1
+ 12:52:33.859   pjsua_core.c TX 421 bytes Request msg REGISTER/cseq=36374 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5e429de2fcf0425f871e34c9eeaa2d97
+Max-Forwards: 70
+From: <sip:3000@10.1.1.139>;tag=789453af563d48e1b8126b5d745d1cc5
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36374 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:3000@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 12:52:34.859    tsx03CFFA44 Retransmit timer event
+ 12:52:34.859    tsx03CFFA44 Retransmiting Request msg REGISTER/cseq=36374 (tdta03CF9920), count=1, restart?=1
+ 12:52:34.859   pjsua_core.c TX 421 bytes Request msg REGISTER/cseq=36374 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5e429de2fcf0425f871e34c9eeaa2d97
+Max-Forwards: 70
+From: <sip:3000@10.1.1.139>;tag=789453af563d48e1b8126b5d745d1cc5
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36374 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:3000@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 12:52:37.046    tsx03CFFA44 Retransmit timer event
+ 12:52:37.046    tsx03CFFA44 Retransmiting Request msg REGISTER/cseq=36374 (tdta03CF9920), count=2, restart?=1
+ 12:52:37.046   pjsua_core.c TX 421 bytes Request msg REGISTER/cseq=36374 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5e429de2fcf0425f871e34c9eeaa2d97
+Max-Forwards: 70
+From: <sip:3000@10.1.1.139>;tag=789453af563d48e1b8126b5d745d1cc5
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36374 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:3000@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 12:52:41.046    tsx03CFFA44 Retransmit timer event
+ 12:52:41.046    tsx03CFFA44 Retransmiting Request msg REGISTER/cseq=36374 (tdta03CF9920), count=3, restart?=1
+ 12:52:41.046   pjsua_core.c TX 421 bytes Request msg REGISTER/cseq=36374 (tdta03CF9920) to UDP 10.1.1.139:5060:
+REGISTER sip:10.1.1.139 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.139:5061;rport;branch=z9hG4bKPj5e429de2fcf0425f871e34c9eeaa2d97
+Max-Forwards: 70
+From: <sip:3000@10.1.1.139>;tag=789453af563d48e1b8126b5d745d1cc5
+To: <sip:3000@10.1.1.139>
+Call-ID: 7c27699db2ea4797a907479c848a89bd
+CSeq: 36374 REGISTER
+User-Agent: SIPek on PJSUA v0.9.0-release/win32
+Contact: <sip:3000@10.1.1.139:5061>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 12:52:41.046    tsx03CFFA44 Error sending Request msg REGISTER/cseq=36374 (tdta03CF9920): Err=130065 (No route to host (WSAEHOSTUNREACH))
+ 12:52:41.046    tsx03CFFA44 Transport error, terminating transaction. Err=130065 (No route to host (WSAEHOSTUNREACH))
+ 12:52:41.046    tsx03CFFA44 State changed from Calling to Terminated, event=TRANSPORT_ERROR
+ 12:52:41.046    pjsua_acc.c SIP registration failed, status=503 (Service Unavailable)
+ 12:52:41.046    tsx03CFFA44 Timeout timer event
+ 12:52:41.046    tsx03CFFA44 State changed from Terminated to Destroyed, event=TIMER
+ 12:52:41.046   tdta03CF9920 Destroying txdata Request msg REGISTER/cseq=36374 (tdta03CF9920)
+ 12:52:41.046    tsx03CFFA44 Transaction destroyed!
+ 13:39:34.546          pjsua Thread stack max usage=7989 by ..\src\pj\string.c:171
+ 13:39:34.656   pjsua_core.c Shutting down...
+ 13:39:35.656  pjsua_media.c Closing (null) sound playback device and (null) sound capture device
+ 13:39:35.671      pasound.c Stopping stream..
+ 13:39:35.671      pasound.c PA message: WinMME StopStream: waiting for background thread.
+
+ 13:39:35.750      pasound.c PA message: WinMME StopStream: waiting for background thread.
+
+ 13:39:35.765      pasound.c Done, status=0
+ 13:39:35.765      pasound.c Closing SoundMAX HD Audio: 0 underflow, 0 overflow
+ 13:39:36.296          media Thread stack max usage=3065 by ..\src\pj\string.c:171
+ 13:39:36.296      pasound.c PortAudio sound library shutting down..
+ 13:39:36.296      pasound.c PA message: TerminateHostApis in 
+
+ 13:39:36.296      pasound.c PA message: TerminateHostApis out
+
+ 13:39:36.296 sip_endpoint.c Destroying endpoing instance..
+ 13:39:36.296 sip_endpoint.c Module "My-Module" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-pjsua-options" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-pjsua-im" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-pjsua-pres" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-pjsua" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-stateful-util" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-refer" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-presence" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-evsub" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-invite" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-100rel" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-ua" unregistered
+ 13:39:36.296 sip_transactio Stopping transaction layer module
+ 13:39:36.296 sip_transactio Transaction layer module destroyed
+ 13:39:36.296 sip_endpoint.c Module "mod-tsx-layer" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-msg-print" unregistered
+ 13:39:36.296 sip_endpoint.c Module "mod-pjsua-log" unregistered
+ 13:39:36.296 sip_transport. Destroying transport manager
+ 13:39:36.296    tcplis:5061 SIP TCP listener destroyed
+ 13:39:36.296 sip_endpoint.c Endpoint 00957854 destroyed
+ 13:39:36.296   pjsua_core.c PJSUA destroyed...

@@ -1,0 +1,26 @@
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\obj\Debug\Sipek.SettingsForm.resources
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\obj\Debug\Sipek.MainForm.resources
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\obj\Debug\Sipek.Properties.Resources.resources
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\obj\Debug\Gui.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\bin\pjsipDll.dll
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\bin\SipekSdk.dll
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\bin\WaveLibMixer.dll
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\bin\voicePort.exe.config
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\bin\voicePort.exe
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\bin\voicePort.pdb
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\obj\Debug\voicePort.exe
+C:\Documents and Settings\admin\Desktop\sipekAPP\Example99_Softphone\obj\Debug\voicePort.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\bin\voicePort.exe.config
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\obj\Debug\voicePort.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\obj\Debug\voicePort.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\bin\voicePort.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\bin\voicePort.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\bin\pjsipDll.dll
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\bin\SipekSdk.dll
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\bin\WaveLibMixer.dll
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\obj\Debug\Sipek.SettingsForm.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\obj\Debug\Sipek.MainForm.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\obj\Debug\Sipek.Properties.Resources.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\voicePortv0.1\Example99_Softphone\obj\Debug\Gui.csproj.GenerateResource.Cache

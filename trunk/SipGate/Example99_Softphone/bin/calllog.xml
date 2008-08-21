@@ -1,0 +1,38 @@
+<Calllog>
+  <Record>
+    <Name>
+    </Name>
+    <Number>100</Number>
+    <Duration>00:00:00</Duration>
+    <Time>20.8.2008 18:15:08</Time>
+    <Count>2</Count>
+    <Type>0</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>100</Number>
+    <Duration>00:00:09.6718750</Duration>
+    <Time>20.8.2008 20:30:09</Time>
+    <Count>0</Count>
+    <Type>1</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>100</Number>
+    <Duration>00:00:04.9843750</Duration>
+    <Time>20.8.2008 20:32:29</Time>
+    <Count>13</Count>
+    <Type>2</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>3001</Number>
+    <Duration>00:01:34.2812500</Duration>
+    <Time>21.8.2008 8:06:51</Time>
+    <Count>0</Count>
+    <Type>2</Type>
+  </Record>
+</Calllog>
