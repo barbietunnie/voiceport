@@ -1,0 +1,1 @@
+An open source Voip-to-PSTN gateway that uses your home computer and a standard cheap dialup modem to make phone calls over VoIP enabled phones. A Standard scenario would be to use a smartphone to make PSTN calls over Voip/Wireless.
